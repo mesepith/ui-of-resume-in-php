@@ -1,0 +1,18 @@
+RewriteEngine on
+RewriteBase /learn/resumenew/
+RewriteRule "^home" index.php?pageId=1&pageName=home [L,QSA]
+RewriteRule "^about" index.php?pageId=2&pageName=about [L,QSA]
+RewriteRule "^education" index.php?pageId=3&pageName=education [L,QSA]
+RewriteRule "^experience" index.php?pageId=4&pageName=experience [L,QSA]
+RewriteRule "^skill" index.php?page=pageId=5&pageName [L,QSA]
+RewriteRule "^projects" index.php?pageId=6&pageName=projects [L,QSA]
+RewriteRule "^contact" index.php?pageId=7&pageName=contact [L,QSA]
+RewriteRule "^project/(.*)/(.*)$" index.php?pageId=8&projId=$1&projName=$2 [L,QSA]
+
+
+
+
+
+
+
+

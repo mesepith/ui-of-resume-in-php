@@ -1,0 +1,136 @@
+/*Top panel star*/
+@media (min-width: 1px) and (max-width:626px) {
+    .topHeaderParentDiv{padding: 12px 0 0; position: relative;}
+    .mobTopPanel{display: block;}
+    .resumeTopLinkClick{border-top: 1px solid white; background-color: #666699; float: none; position: fixed; width: 100%; z-index: 1; display: none;}
+    .resumeTopLinkClick li{display: block; padding: 10px;}
+    .resumeTopLinkClick li a{padding: 5px;}
+}
+/*Top panel end*/
+/*home page start*/
+@media (min-width: 1px) and (max-width:775px) { 
+    .userNameImage {width: 100%;}
+}
+@media (min-width: 1px) and (max-width:775px) { 
+    .userName h1{font-size: 65px;}
+}
+@media (min-width: 1px) and (max-width:660px) { 
+    .userImage {margin-left: 15px;}
+    .userNameImage img{width: 120px;}
+    .userName{margin-top: 35px;}
+    .userName h1 {margin-left: 30px;}
+}
+@media (min-width: 1px) and (max-width:560px) {
+    .userImage {margin-left: 74px;}
+    .userName {margin-top: 5px;}
+}
+@media (min-width: 1px) and (max-width:438px) {
+    .userImage {margin-left: 25px;}
+    .userName {margin-top: 55px;}
+    .userName h1 {font-size: 30px;}
+}
+@media (min-width: 1px) and (max-width:361px) { 
+    .userImage {margin-left: 35px;}
+    .userNameImage img {width: 80px;}
+    .userName {margin-top: 40px;}
+    .userName h1 {font-size: 25px;}
+    
+}
+@media (min-width: 1px) and (max-width:302px) { 
+    .userImage {margin-left: 0px;}
+}
+/*home page start*/
+
+/*About Start*/
+@media (min-width: 1px) and (max-width:757px) {
+    /*.mainContentAboutDiv{overflow: hidden; width: 100%;}*/
+    .aboutSubImg{display: none;}
+    .aboutSubContent{width: 100%;}
+    .aboutAllCont{width: 100%;}
+} 
+/*About End*/
+/*Education Start*/
+@media (min-width: 1162px) and (max-width:1265px) {
+    .eduDivEach { width: 500px;}
+}
+@media (min-width: 1062px) and (max-width:1161px) {
+    .eduDivEach { width: 450px;}
+}
+@media (min-width: 962px) and (max-width:1061px) {
+    .eduDivEach { width: 400px;}
+}
+@media (min-width: 862px) and (max-width:961px) {
+    .eduDivEach { width: 350px;}
+}
+@media (min-width: 1px) and (max-width:861px) {
+    .eduDivEach{width: 100%;}
+    .eduSecondMainDiv{float: left;}
+}
+@media (min-width: 1px) and (max-width:492px) {
+    .eduMainDiv { margin-left: 5px; margin-right: 15px;}
+}
+/*Education End*/
+
+/*Skill Start*/
+@media (min-width: 1px) and (max-width:782px) {
+    .skillContentMainDiv{width: 100%;}
+    .skillProgress{margin-left: 10px; margin-right: 10px;}
+}
+@media (min-width: 1px) and (max-width:738px) {
+    .skillDescriptionMainDiv{overflow: hidden; margin-left: 10px; margin-right: 10px;}
+    .eachSkillDesc{ width: 100%;}
+    .secondSkillMainDiv{float: left;}
+}
+/*Skill End*/
+/*Project Start*/
+@media (min-width: 1px) and (max-width:1185px) {
+    .projectMaineDiv{width: 100%}
+    /*.firstProjectDiv{width: 40.474%; padding-left: 65px; padding-right: 0;}*/
+    .firstProjectDiv{width: 30.33%; }
+    
+}
+@media (min-width: 817px) and (max-width:999px) {
+    .firstProjectDiv{width: 46.33%; }
+}
+@media (min-width: 1px) and (max-width:817px) {
+    .firstProjectDiv{width: 96.33%;  }
+
+}
+@media (min-width: 1px) and (max-width:731px) {
+    .firstProjectDiv{width: 95.33%; margin-left: 16px; padding-left: 0; padding-right: 0; float: none;}
+}
+@media (min-width: 1px) and (max-width:616px) {
+    .firstProjectDiv{margin: 0 auto; display: block;}
+}
+/*Project End*/
+/*Contact start*/
+@media (min-width: 1px) and (max-width:938px) {
+    .contactMainDiv{width: 100%;}
+}
+@media (min-width: 1px) and (max-width:667px) {
+    .contactInputParent{width: 80%; margin-bottom: 40px;}
+}
+@media (min-width: 668px) and (max-width:938px) {
+    .contactInput{float: none;}
+}
+@media (min-width: 1px) and (max-width:561px) {
+    .contactInput{float: none;}
+}
+/*Contact end*/
+
+/*Each Project Detail Start*/
+
+@media (max-width: 760px) {
+    .projDetailSubLeft, .projDetailSubRight {float: none;}
+    .projTinyImg img{
+        display: block;
+        margin: 0 auto;
+    }
+    .projDetailSubContent{width: 100%; dispaly: block; margin: 0 auto;}
+    .techUsed{width: 90%}
+}
+
+@media (max-width: 512px) {
+    .eachScreenShots img{width: 90%;}
+}
+/*Each Project Detail  end*/
